@@ -3,9 +3,6 @@ using academico.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-//Linha 1
-//Linha 2
-
 // Add services to the container.
 
 builder.Services.AddControllers(options => options.SuppressImplicitRequiredAttributeForNonNullableReferenceTypes = true);
