@@ -67,3 +67,7 @@ dotnet aspnet-codegenerator controller -name TbrAlunoTurmaController -async -api
 ```console
 dotnet aspnet-codegenerator controller -name TbTurmaController -async -api -m TbTurma -dc academicoContext -outDir Controllers
 ```
+
+```console
+dotnet new gitignore
+```
